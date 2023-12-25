@@ -1,0 +1,48 @@
+.hero-about {
+    padding: 156px;
+    display: flex;
+    justify-content: center;
+    margin: -125px;
+    gap: 97px;
+    align-items: center;
+}
+h2{
+    color: #FFF;
+    padding-left:215px;
+margin-top:5%;
+font-family: Poppins;
+font-size: 60px;
+font-style: italic;
+font-weight: 600;
+line-height: 159px; /* 227.143% */
+letter-spacing: -2.9px;
+}
+
+.About-Text{
+    text-align: justify;
+    font-family: 'Poppins';
+    font-size:20px;
+    width: 800px;
+    height: 545px;
+}
+.Btn-CTA2{
+    width: 278.622px;
+height: 79.159px;
+flex-shrink: 0;
+    border-radius: 130.395px;
+border: 2.229px solid #FFF;
+background: rgba(255, 255, 255, 0.00);
+    color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 20.792px;
+font-style: normal;
+
+
+
+}
+.PlaceBTN{
+    margin-top:2%;
+    display: flex;
+    justify-content: center;
+}
