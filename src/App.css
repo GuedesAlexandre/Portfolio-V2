@@ -6,7 +6,9 @@
   --color-tertiary: #;
   --color-accent: #FFEE56;
 }
-
+html{
+  cursor:none;
+}
 .cursor {
   width: 40px;
   height: 40px;
@@ -227,7 +229,7 @@ line-height: 90px; /* 76% */
 letter-spacing: -7px;
 }
 .Description{
-  margin-top:-5%;
+  margin-top:-3%;
   
   color: #FFF;
 

@@ -61,8 +61,8 @@ const Acceuil = () => {
   </defs>
 </svg>
        </div>
-       <About id="About"/>
-       
+      
+      <About/>
         </>
     )
 }
