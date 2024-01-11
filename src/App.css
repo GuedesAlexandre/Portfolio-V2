@@ -229,7 +229,7 @@ line-height: 90px; /* 76% */
 letter-spacing: -7px;
 }
 .Description{
-  margin-top:-3%;
+  margin-top:-6%;
   
   color: #FFF;
 
@@ -260,7 +260,7 @@ font-size: 20px;
 font-style: normal;
 font-weight: 500;
 cursor: pointer;
-transition : all .5s ease-in-out;
+transition : all .3s ease-in-out;
 &:hover{
   transform: translate(0px, -5px);
 
