@@ -57,5 +57,73 @@ flex-shrink: 0;
     display: flex;
     justify-content: center;
     align-items: center;
- margin-top:20px;
+ margin-top:30px;
+}
+
+/* Styles pour les écrans de 767px et moins */
+@media (max-width: 767px) {
+    .Project > span{
+     font-size: 15px;
+     padding:5px;
+    }
+    .Project {
+        color:white;
+        font-family :'poppins';
+     
+            color:white;
+        ;
+            width: 130%;
+        height: 100.159px;
+    
+            font-family:'poppins';
+            border: 1px solid #FFF;
+         
+            background: rgba(255, 255, 255, 0.00);
+            transition: all .3s;
+            display: flex;
+            justify-content:space-between;
+            transition: all .3s;
+            &:hover{
+                background: rgba(255, 255, 255, 0.10);
+               
+            transform: scale(1.05);
+            }
+    }
+}
+
+/* Styles pour les écrans entre 768px et 959px */
+@media (min-width: 768px) and (max-width: 959px) {
+    .Project > span{
+        font-size: 15px;
+        padding:20px;
+       }
+       .Project {
+           color:white;
+           font-family :'poppins';
+        
+               color:white;
+           ;
+               width: 100%;
+           height: 100.159px;
+       
+               font-family:'poppins';
+               border: 1px solid #FFF;
+            
+               background: rgba(255, 255, 255, 0.00);
+               transition: all .3s;
+               display: flex;
+               justify-content:space-between;
+               transition: all .3s;
+               &:hover{
+                   background: rgba(255, 255, 255, 0.10);
+                  
+               transform: scale(1.05);
+               }
+       }
+
+}
+
+/* Styles pour les écrans entre 960px et 1559px */
+@media (min-width: 960px) and (max-width: 1559px) {
+    
 }
