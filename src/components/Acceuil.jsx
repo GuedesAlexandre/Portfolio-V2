@@ -1,5 +1,6 @@
 import About from "./About";
 import Navbar from "./Navbar";
+import Skills from "./Skills";
 import Cursor from "./cursor";
 
 const Acceuil = () => {
@@ -63,6 +64,7 @@ const Acceuil = () => {
        </div>
       
       <About/>
+      <Skills/>
         </>
     )
 }

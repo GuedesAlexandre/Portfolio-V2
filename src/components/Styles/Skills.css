@@ -1,0 +1,105 @@
+.Title-Section{
+    margin-top:5%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 40px;
+    padding-left:75px;
+}
+.Title-Skills{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 35px;
+  
+
+}
+.Skills{
+    font-family: 'poppins';
+    color:white;
+    font-size:18px;
+}
+.Front{
+    width:25%;
+}
+.Back{
+    width:25%;
+}
+hr{
+    width:100%;
+    
+}
+.Skills-container{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    gap:50px;
+}
+.Graph{
+    width:25%;
+}
+
+/* Styles pour les écrans de 767px et moins */
+@media (max-width: 767px) {
+    .Skills-container{
+        flex-direction: column;
+        display: flex;
+        place-items: center;
+        justify-content: space-evenly;
+        gap:50px;
+    }
+    .Front{
+        width:65%;
+    }
+    .Back{
+        width:65%;
+    }
+    .Graph{
+        width:65%;
+    }
+
+}
+
+/* Styles pour les écrans entre 768px et 959px */
+@media (min-width: 768px) and (max-width: 959px) {
+    .Skills-container{
+        flex-direction: column;
+        display: flex;
+        place-items: center;
+        justify-content: space-evenly;
+        gap:50px;
+    }
+    .Front{
+        width:65%;
+    }
+    .Back{
+        width:65%;
+    }
+    .Graph{
+        width:65%;
+    }
+}
+
+/* Styles pour les écrans entre 960px et 1559px */
+@media (min-width: 960px) and (max-width: 1559px) {
+    .Skills-container{
+        flex-direction: row;
+        display: flex;
+        place-items: center;
+        align-items: center;
+        justify-content: space-evenly;
+        gap:50px;
+    }
+    .Front{
+        width:25%;
+    }
+    .Back{
+        width:25%;
+    }
+    .Graph{
+        width:25%;
+    }
+}
+
