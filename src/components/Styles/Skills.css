@@ -36,6 +36,7 @@ hr{
     display: flex;
     justify-content: space-evenly;
     gap:50px;
+    margin-bottom:10%;
 }
 .Graph{
     width:25%;

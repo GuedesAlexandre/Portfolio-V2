@@ -1,5 +1,6 @@
 import About from "./About";
 import Navbar from "./Navbar";
+import Project from "./Project";
 import Skills from "./Skills";
 import Cursor from "./cursor";
 
@@ -65,6 +66,7 @@ const Acceuil = () => {
       
       <About/>
       <Skills/>
+      <Project/>
         </>
     )
 }
