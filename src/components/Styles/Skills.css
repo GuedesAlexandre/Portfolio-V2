@@ -18,8 +18,11 @@
 }
 .Skills{
     font-family: 'poppins';
-    color:white;
-    font-size:18px;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
 }
 .Front{
     width:25%;
