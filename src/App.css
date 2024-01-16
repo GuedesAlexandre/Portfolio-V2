@@ -6,13 +6,14 @@
   --color-tertiary: #;
   --color-accent: #FFEE56;
 }
+
 html{
   cursor:none;
 }
 .cursor {
   width: 40px;
   height: 40px;
-  border: 2px solid white;
+  border: 5px solid #FFEE56;
   border-radius: 50%;
   position: absolute;
   animation: Anim1 1s infinite alternate;
@@ -28,14 +29,14 @@ html{
   transform: translate(-50%,-50%);
   width: 5px;
   height: 5px;
-  background: rgb(255, 255, 255);
+  background: #FFEE56;
   border-radius: 50%;
 }
 
 .expand {
   animation: Anim2 .5s;
-  background: rgb(255, 255, 255);
-  border: 1px solid rgb(255, 255, 255);
+  background: var(--color-primary);
+  border: 1px solid #FFEE56;
 }
 
 @keyframes Anim1 {
@@ -229,7 +230,7 @@ line-height: 90px; /* 76% */
 letter-spacing: -7px;
 }
 .Description{
-  margin-top:-6%;
+  margin-top:-2%;
   
   color: #FFF;
 
@@ -378,17 +379,15 @@ transition : all .3s ease-in-out;
     
     
   .Description{
-    margin-top:-8%;
-    
+    margin-top: -1%;
     color: #FFF;
-  
-  text-align: center;
-  font-family: Poppins;
-  font-size: 35px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 59px; /* 353.333% */
-  letter-spacing: -1.15px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: -1.15px;
   
   }
   
@@ -508,17 +507,15 @@ transition : all .3s ease-in-out;
     border-width: 1px;
   }
   .Description{
-    margin-top:-10%;
-    
+    margin-top: -7%;
     color: #FFF;
-  
-  text-align: center;
-  font-family: Poppins;
-  font-size: 45px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 159px; /* 353.333% */
-  letter-spacing: -1.15px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 159px;
+    letter-spacing: -1.15px;
   
   }
   .Btn-CTA{
@@ -572,16 +569,14 @@ transition : all .3s ease-in-out;
     border-width: 1px;
   }
   .Description{
-    margin-top:-6%;
-    
+    margin-top: -5%;
     color: #FFF;
-  
     text-align: center;
     font-family: Poppins;
     font-size: 45px;
     font-style: normal;
     font-weight: 500;
-    line-height: 159px; /* 353.333% */
+    line-height: 159px;
     letter-spacing: -1.15px;
   }
   .Btn-CTA{
@@ -730,7 +725,7 @@ transition : all .3s ease-in-out;
     border-width: 1px;
   }
   .Description {
-    margin-top: -8%;
+    margin-top: -6%;
     color: #FFF;
     text-align: center;
     font-family: Poppins;

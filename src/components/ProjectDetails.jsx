@@ -4,6 +4,7 @@ import { Projet } from '../api/project.js';
 import Navbar from './Navbar.jsx';
 import '../App.css'
 import Cursor from './cursor.jsx';
+import NavbarExterne from './NavExterne.jsx';
 
 const ProjectDetails = () => {
 
@@ -14,7 +15,7 @@ const ProjectDetails = () => {
   return (
     <div>
       <Cursor/>
-      <Navbar/> 
+      <NavbarExterne/>
       <h2>{project.Nom}</h2>
       <p>{project.Langage}</p>
       {/* Affichez ici les autres détails du projet */}

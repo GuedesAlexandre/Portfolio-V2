@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../App.css'
-
-const Navbar = () => {
+import { Link } from 'react-router-dom';
+const NavbarExterne = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -37,16 +37,16 @@ const Navbar = () => {
             <div className={`navbar-menu ${isOpen ? 'is-active' : ''}`}>
                 <ul className="navbar-items">
                     <li className="navbar-item1">
-                        <a href="#">01 / Home</a>
+                        <Link to="/">01 / Home</Link>
                     </li>
                     <li className="navbar-item2">
-                        <a href="#about"> 02 / About</a>
+                        <a href="/"> 02 / About</a>
                     </li>
                     <li className="navbar-item3">
-                        <a href="#work">03 / Works</a>
+                        <a href="/">03 / Works</a>
                     </li>
                     <li className="navbar-item4">
-                        <a href="#">04 / Contact</a>
+                        <a href="/">04 / Contact</a>
                     </li>
                 </ul>
             </div>
@@ -54,4 +54,4 @@ const Navbar = () => {
     );
 }
 
-export default Navbar;
+export default NavbarExterne;

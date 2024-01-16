@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import Project from "./Project";
 import Skills from "./Skills";
 import Cursor from "./cursor";
+import Footer from "./footer";
 
 const Acceuil = () => {
     return(
@@ -64,9 +65,10 @@ const Acceuil = () => {
 </svg>
        </div>
       
-      <About/>
+      <About id="about"/>
       <Skills/>
       <Project/>
+      <Footer/>
         </>
     )
 }

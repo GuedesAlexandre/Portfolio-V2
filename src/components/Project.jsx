@@ -13,7 +13,7 @@ const Project = () => {
 
   return (
     <>
-      <h2 className="Title-Section">03 / Projects</h2>
+      <h2 id="works" className="Title-Section">03 / Projects</h2>
       <div className="Projects-Container">
         {Projet.map((project) => (
           <div  className="Project" key={project.id} onClick={() => handleOnClick(project.id)}>
