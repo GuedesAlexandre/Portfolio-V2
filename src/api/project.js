@@ -39,6 +39,7 @@ export const Projet = [
         Langage: 'HTML, CSS, JavaScript',
         Description: "Webdocumentaire dont le sujet était les coulisses d'un traiteur artisan italien à Meaux.",
         Lien: 'https://github.com/GuedesAlexandre/Webdoc'
+        
 
     }
     

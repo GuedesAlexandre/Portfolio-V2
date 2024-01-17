@@ -5,6 +5,7 @@ const Cursor = () => {
     const [cursorPos, setCursorPos] = useState({ x: 0, y: 0 });
     const [expand, setExpand] = useState(false);
     const [isTextHovered, setIsTextHovered] = useState(false);
+    
 
     useEffect(() => {
         const updateCursorPos = (e) => {
