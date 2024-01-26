@@ -72,6 +72,9 @@ h3{
         position: relative;
         bottom: -10%;
     }
+    footer{
+        width: 100vh;
+    }
     .Footer-Container{
         margin-top:6%;
         display:flex;
@@ -83,6 +86,16 @@ h3{
         
         font-family: 'poppins';
         align-items:baseline
+    }
+    .Mentions{
+        display: flex;
+        justify-content:flex-start;
+        font-family: 'poppins';
+        font-size: 20px;
+        position: relative;
+        bottom: -10%;
+        text-align: center;
+    
     }
 
 
