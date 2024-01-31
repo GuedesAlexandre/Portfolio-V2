@@ -50,20 +50,7 @@ const Acceuil = () => {
 </svg>
 
         </div>
-       <div className="lueurjaune2">
-       <svg xmlns="http://www.w3.org/2000/svg" width="307" height="971" viewBox="0 0 307 971" fill="none">
-  <g filter="url(#filter0_f_4_19)">
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M228.834 342.037C255.375 287.759 287.436 234.136 352.448 216.146C426.218 195.732 523.853 187.33 594.034 240.98C662.213 293.101 629.218 377.039 656.468 448.557C682.214 516.127 761.349 579.061 746.551 641.264C729.894 711.28 662.239 761.608 580.017 769.914C499.555 778.044 412.023 734.13 338.876 682.451C274.443 636.93 230.917 574.098 209.624 508.23C190.048 447.67 204.174 392.469 228.834 342.037Z" fill="#FFEE56"/>
-  </g>
-  <defs>
-    <filter id="filter0_f_4_19" x="0.421021" y="0.438293" width="947.958" height="970.451" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-      <feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_4_19"/>
-    </filter>
-  </defs>
-</svg>
-       </div>
+       
       
       <About id="about"/>
       <Skills/>

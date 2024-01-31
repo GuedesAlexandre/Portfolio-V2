@@ -67,7 +67,7 @@ html{
 
 body {
   background-color: var(--color-primary);
-  overflow-x: hidden;
+
 
   
 }
@@ -665,17 +665,15 @@ transition : all .3s ease-in-out;
     border-width: 1px;
   }
   .Description{
-    margin-top:-7%;
-    
+    margin-top: -4%;
     color: #FFF;
-  
-  text-align: center;
-  font-family: Poppins;
-  font-size: 45px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 159px; /* 353.333% */
-  letter-spacing: -1.15px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 159px;
+    letter-spacing: -1.15px;
   
   }
   .Btn-CTA{
