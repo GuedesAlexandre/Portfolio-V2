@@ -1,0 +1,150 @@
+footer{
+    background-color: white;
+    color: black;
+    padding: 0;
+    margin: 0;
+    margin-top: 10%;
+    width: 100%;
+    height: 100%;
+}
+
+*{
+    padding:0;
+    margin: 0;
+}
+.Footer-Container{
+    margin-top:6%;
+    display:flex;
+    padding:50px;
+    justify-content:space-around;
+
+    
+    font-family: 'poppins';
+    align-items: center;
+}
+.info1{
+   
+    display: flex;
+    flex-direction: column;
+    font-size:20px;
+    justify-content:center;
+
+
+}
+.info2{
+   
+    margin-top:40px;
+    display: flex;
+    flex-direction: column;
+    font-size:20px;
+    gap:5px;
+    
+
+}
+h3{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 10px;
+
+}
+.info3{
+  
+    display: flex;
+    flex-direction: column;
+    font-size:20px;
+}
+.Mentions{
+    display: flex;
+    justify-content: center;
+    font-family: 'poppins';
+    font-size: 20px;
+    position: relative;
+    bottom: -10%;
+}
+@media (max-width: 767px) {
+    .info1{
+   
+        display: flex;
+        flex-direction: column;
+        font-size:15px;
+        justify-content:center;
+    
+    
+    }
+    .info2{
+        font-size: 15px;
+    }
+    .Mentions{
+        display: flex;
+      justify-content: center;
+        font-family: 'poppins';
+        font-size: 15px;
+        position: relative;
+        bottom: -10%;
+        text-align: center;
+
+    }
+    footer{
+        width: 100%;
+    }
+    .Footer-Container{
+        margin-top:6%;
+        display:flex;
+        padding:50px;
+        justify-content:center;
+        place-items: center;
+        flex-direction: column;
+        gap:20px;
+        
+        font-family: 'poppins';
+        align-items:baseline
+    }
+   
+
+
+}
+/* Styles pour les écrans entre 768px et 959px */
+@media (min-width: 768px) and (max-width: 959px) {
+    .Mentions{
+        display: flex;
+        justify-content: center;
+        font-family: 'poppins';
+        font-size: 15px;
+        position: relative;
+       bottom:-10%;
+
+    }
+    footer{
+        width: 100%;
+    }
+    .Footer-Container{
+        margin-top:6%;
+        display:flex;
+        padding:50px;
+        justify-content:center;
+        place-items: center;
+        flex-direction: column;
+        gap:20px;
+        
+        font-family: 'poppins';
+        align-items:baseline
+    }
+    .Mentions{
+        display: flex;
+        justify-content:flex-start;
+        font-family: 'poppins';
+        font-size: 20px;
+        position: relative;
+        bottom: -10%;
+        text-align: center;
+    
+    }
+
+}
+
+/* Styles pour les écrans entre 960px et 1559px */
+@media (min-width: 960px) and (max-width: 1559px) {
+    
+}
